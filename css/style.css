@@ -1,0 +1,70 @@
+.card {
+    height: 100%;
+}
+
+#portofolio {
+    padding-top: 20px;
+}
+
+#layanan .text-center {
+    padding-bottom: 20px;
+}
+
+#tentang {
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tentang .text-center {
+    padding-bottom: 20px;
+}
+
+#kontak {
+    background-color: rgb(204, 204, 204);
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#layanan {
+    padding-top: 20px;
+    background-color: rgb(204, 204, 204);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* CSS untuk layar yang lebih kecil dari 763px */
+@media (max-width: 763px) {
+    /* Tempatkan aturan CSS di sini untuk layar yang lebih kecil dari 763px */
+    #layanan {
+        height: auto; /* Mengatur tinggi elemen agar menyesuaikan kontennya */
+        justify-content: flex-start; /* Mengubah posisi konten ke atas */
+        padding: 10px; /* Ubah padding agar sesuai dengan tampilan pada layar kecil */
+        /* Atau tambahkan aturan CSS lain sesuai kebutuhan Anda */
+    }
+}
+
+
+#beranda {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar-nav a.active {
+    font-weight: bold;
+}
